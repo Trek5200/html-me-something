@@ -2,6 +2,8 @@
 
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
         <title>
             LC101 Assignment #4
         </title>
@@ -10,7 +12,7 @@
     <body>
 
         <header>
-            Rike KC Associate
+            <h1 id="pagechapter">A day in the life of a Rike KC associate</h1> 
             <nav>
                 <li>
                     <a href ="#How the Day Starts">How the Day Starts</a>
@@ -34,14 +36,13 @@
         <main>
 
             <article>
-                <h1>A day in the life of a Rike KC associate</h1> 
 
                 <section>
-                    <a name="A day in the life of a Rike KC associate"></a>
-                    <h2>How the Day Starts</h2>
+                    <a name="How the Day Starts"></a>
+                    <h2 class='chapter'>How the Day Starts</h2>
                     <p>
                         Like everyday everywhere, it starts with pouring a cup of Joe... 
-                     </p>
+                    </p>
 
                     <p>
                         We spend time looking at the map for ebikes and scooters ('vehicles') that indicate a need for service.
@@ -52,41 +53,52 @@
                             <li>customer reported problems with the vehicle</li>
                             <li>complaints about vehicles on private property</li>
                         </ol>
-                    </p>                    
-                    <img src="images/map.jpg" alt="Pic of map showing vehicles">
+                    </p>
+                    
+                    <figure class="center">
+                        <img src="images/map.jpg" alt="Pic of map showing vehicles">
+                        <figcaption class="center1">All those orange dots are groups of ebike and scooters</figcaption>
+                    </figure>
+                    
                 </section>
 
                 <section>
-                        <a name="Loading the van"></a>
-                        <h2>Loading the van</h2>
-                        <p>
-                            With our day's list of tasks in hand we load the vans with the essentials: 
-                            Spare batteries, bike tools, bike pump, and personal stuff.
-                        </p>
+                    <a name="Loading the van"></a>
+                    <h2 class='chapter'>Loading the van</h2>
+                    <p>
+                        With our day's list of tasks in hand we load the vans with the essentials: 
+                        Spare batteries, bike tools, bike pump, and personal stuff.
+                    </p>
                         
-                        <p>
-                            We also load the vans with any scooters, ebikes, or pedal bikes that are ready go back into the field.
-                            Scooters with low state of charge are retrieved from the field and brought back to charge overnight. 
-                            Once charged, we redeply them to the field.
-                            ebikes and pedal bikes only get brought in when they need repair that cannot be accomodated in the field.
-                        </p>                    
+                    <p>
+                        We also load the vans with any scooters, ebikes, or pedal bikes that are ready go back into the field.
+                        Scooters with low state of charge are retrieved from the field and brought back to charge overnight. 
+                        Once charged, we redeply them to the field.
+                        ebikes and pedal bikes only get brought in when they need repair that cannot be accomodated in the field.
+                    </p>
+                    
+                    <figure class="center">
                         <img src="images/vanloaded.jpg" alt="Pic of loaded van">
+                        <figcaption class="center1">A load of ebikes and scooters at the end of a busy day</figcaption>
+                    </figure>
+                    
                 </section>
 
                 <section>
-                        <a name="A normal day"></a>
-                        <h2>A normal day</h2>
-                        <p>
-                            A normal day is just driving to each vehicle, doing what needs to done to it: 
-                            Scanning, servicing, picing up for charge, replacing a battery, fixing a grip, etc.
-                            When the list of things to do are done, the day in the field is essetialy done.
-                            Not too much excitement here other than chatting with the people on the street.
-                        </p>
+                    <a name="A normal day"></a>
+                    <h2 class='chapter'>A normal day</h2>
+                    <p>
+                        A normal day is just driving to each vehicle, doing what needs to done to it: 
+                        Scanning, servicing, picing up for charge, replacing a battery, fixing a grip, etc.
+                        When the list of things to do are done, the day in the field is essetialy done.
+                        Not too much excitement here other than chatting with the people on the street.
+                    </p>
                 </section>
 
                 <section>
-                        <a name="An eventful trip of picking up ebikes and scooters"></a>
-                    <h2>An eventful trip of picking up ebikes and scooters</h2>
+                    <a name="An eventful trip of picking up ebikes and scooters"></a>
+                    <h2 class='chapter'>An eventful trip of picking up ebikes and scooters</h2>
+
                     <p>It was to be yet another day hunting down ebikes and scooters that people had used and left in those less than desirable places.
                         I was in route to one when about a block up I saw someone on one of our ebikes.    
                         Curiosity got the better of me and I wanted to see if the app would show it as an 'Active Trip', so I followed.
@@ -100,59 +112,85 @@
                         His speed was slow and labored, as if the electric assist was not working.
                         He turned his head and saw that I was following, but could not seem to go any faster.
                         One corner after another he would take in a feeble attempt to elude me.
-                        I just followed, keeping my distance, knowing that at some point he would need to stop.</p>
+                        I just followed, keeping my distance, knowing that at some point he would need to stop.
+                    </p>
                 
                     <p>I pulled up the camera app on my phone and made ready to take a short video.
                         I closed the distance between us so I could get a better recording and a clear image of who this was.
                         He felt my presence and turned to look at me.
                         After noticing that I was recording him, he stopped at the next corner of a busy intersection at stop sign.
-                        I pulled the van next to him, leaving it in drive just in case I needed a speedy getaway.</p>
-                        <video width="320" height="240" autoplay>
-                                <source src="images/chase.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
-                              </video>
+                        I pulled the van next to him, leaving it in drive just in case I needed a speedy getaway.
+                    </p>
+                    
+                    <figure  class="center">
+                        <video width="640" height="480" controls>
+                            <source src="images/chase.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    <figcaption class="center1">No, this is not slow motion. Trying to pedal an ebike with no charge is hard.</figcaption>
+                    </figure>
                 
                     <p>I rolled the window down about halfway and said,
                         "That bike belongs to RIDE KC.  You can either get off and walk away, or I can call the police. Which do you want me to do?"
                         After a feeble attempt to argue his case that it was his bike, I pointed out to him that it still had our name on it.
                         Then I repeated, "You can either get off and walk away, or I can call the police. Which do you want me to do?"
                         He shook his head, laid the bike on the ground, and walked away.
-                        After he was out of sight, I retrieved the stolen and broken bike and put it in my van.</p>
+                        After he was out of sight, I retrieved the stolen and broken bike and put it in my van.
+                    </p>
 
                 
-                    <p>Then, off I went back to my origin mission to collect another ebike...</p>
+                    <p>Then, off I went back to my origin mission to collect another ebike...
+
+                    </p>
                             
                 </section>
 
                 <section>
-                        <a name="At the end of the day"></a>
-                        <h2>At the end of the day</h2>
-                        <p>
-                            The days work is done, time to return to the shop.
-                            We unload the vans.
-                            Tools get stored in the shop.
-                            Batteries get put on the chargers to charge overnight.
-                            Scooters brought in for low state of charge get put on charge overnight.
-                            Vehicles brought in for repair are put in 'repair' status and labled with what needs to get fixed.
-                            Vans get parked.
-                        </p>                   
+                    <a name="At the end of the day"></a>
+                    <h2 class='chapter'>At the end of the day</h2>
+                    <p>
+                        The days work is done, time to return to the shop.
+                        We unload the vans.
+                        Tools get stored in the shop.
+                        Batteries get put on the chargers to charge overnight.
+                        Scooters brought in for low state of charge get put on charge overnight.
+                        Vehicles brought in for repair are put in 'repair' status and labled with what needs to get fixed.
+                        Vans get parked.
+                    </p>
+                    
+                    <figure class="center">
                         <img src="images/vans.jpg" alt="Pic of vans">
-                        <p>
-                            The day is done and everything is ready for the next day to start it all over again.
-                        </p>
+                        <figcaption class="center1">Vans snuggly parked on the die of the road</figcaption>
+                    </figure>
+
+                    <p>
+                        The day is done and everything is ready for the next day to start it all over again.
+                        <br>
+                    </p>
                 </section>
-                  
+
+                <section>
+                    <h2 class='chapter'> </h2>
+            
+                    <p>
+                        To learn more about BikeWalkKC, visit their website: 
+                        <a href="https://bikewalkkc.org">https://bikewalkkc.org</a>
+                    <br><br>
+                    </p>
+                </section>
+
             </article>
             
         </main>
     </body>
 
     <footer>
-            <p>Posted by: James P<br />
+            <p>
+               Posted by: James P<br />
                former Ride Share Associate
             </p>
             <p>&copy; Copyright 2019 James P</p>
-          </footer>
+    </footer>
 </html>
 
 

@@ -1,0 +1,46 @@
+*{
+    margin: 10px 15px;
+    font-family: sans-serif;
+    background-color: lightcyan;
+}
+
+body {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#pagechapter {
+    background-color: orangered;
+    color: blue;
+    padding: 15px;
+}
+
+.chapter {
+    background-color: orangered;
+    color: blue;
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin: auto;    
+    text-align: center
+}
+
+.center1, .video {
+    text-align: center;
+}
+
+p, ol, li, figcaption {
+    font-size: 20px; 
+}
+
+figure{
+    margin: auto;
+    padding: 25px;
+}
+footer{
+    margin: 10px 15px;
+    text-align: center;
+}
